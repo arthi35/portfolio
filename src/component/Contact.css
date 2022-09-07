@@ -1,0 +1,156 @@
+/* .contact {
+
+
+  max-width: 1200px;
+
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 10px 50px;
+}
+.Contact_heading {
+  font-size: 50px;
+}
+.contact_imagebox {
+  text-align: center;
+
+  margin: 0px;
+}
+.contact_image {
+  padding: 0px;
+  height: 400px;
+  width: 500px;
+}
+.contact_text {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.text_details > p {
+  font-size: 27px;
+  font-weight: 500 !important;
+}
+
+.contact_icon {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+.contact_icon > div > a > p {
+  font-size: 17px;
+  font-weight: 500 !important;
+}
+.icon {
+  height: 50px !important;
+  width: 50px !important;
+  color: orangered;
+}
+.contact_mail > h2 {
+  color: rgb(0, 40, 100);
+  font-size: 30px;
+}
+
+@media only screen and (max-width: 425px) {
+  .Contact_heading {
+    font-size: 30px;
+  }
+  .contact_image {
+    height: 270px;
+    width: 300px;
+  }
+  .text_details > p {
+    font-size: 17px;
+    font-weight: 500 !important;
+  }
+  .contact_icon > div > a > p {
+    font-size: 17px !important;
+    font-weight: 200 !important;
+    background-color: thistle;
+  }
+  .icon {
+    height: 30px !important;
+    width: 30px !important;
+    color: teal;
+  }
+  .contact_mail > h2 {
+    color: rgb(0, 40, 100);
+    font-size: 20px;
+  }
+} */
+html {
+  font-size: 1vw;
+}
+.Contact_container {
+  /* min-height: 40vw; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0rem 5rem;
+}
+.Contact_heading {
+  font-size: 3rem;
+}
+.text_details > p {
+  font-size: 1.75rem;
+  line-height: 10px;
+  color: rgba(160, 167, 165);
+}
+.contact_Link {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+}
+.contact_Link > div > a {
+  color: white;
+  text-decoration: none;
+}
+.contact_Link > div > a > p {
+  font-size: 1.75rem;
+  color: rgba(160, 167, 165);
+}
+.contact_icon {
+  height: 4rem !important;
+  width: 4rem !important;
+  color: rgb(132, 238, 12) !important;
+}
+@media only screen and (max-width: 1024px) {
+  .Contact_heading {
+    font-size: 3rem;
+  }
+  .text_details > p {
+    margin: 0px;
+    font-size: 2rem;
+    line-height: 5rem;
+    color: rgba(160, 167, 165);
+  }
+  .contact_Link > div > a > p {
+    font-size: 2rem;
+    color: rgba(160, 167, 165);
+  }
+  .contact_icon {
+    height: 5rem !important;
+    width: 5rem !important;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .Contact_heading {
+    font-size: 4rem;
+  }
+  .text_details > p {
+    margin: 0px;
+    font-size: 3.5rem;
+    line-height: 5.5rem;
+    color: rgba(160, 167, 165);
+  }
+  .contact_Link > div > a > p {
+    font-size: 3.5rem;
+    color: rgba(160, 167, 165);
+  }
+  .contact_icon {
+    height: 5rem !important;
+    width: 5rem !important;
+  }
+}

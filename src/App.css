@@ -1,0 +1,19 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 1vw;
+
+  --tw-bg-opacity: 1;
+  background-color: rgba(8, 46, 78, var(--tw-bg-opacity));
+  color: white;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+    Liberation Mono, Courier New, monospace;
+}
+html {
+  scroll-behavior: smooth;
+  font-size: 1vw;
+}
+@media only screen and (max-width: 425px) {
+  html {
+    font-size: 3vw;
+  }
+}
