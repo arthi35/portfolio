@@ -32,6 +32,7 @@ function App() {
               <Header />
               <AboutMe />
             </Route>
+            
             <Route exact path="/project">
               <Header />
               <Projects />

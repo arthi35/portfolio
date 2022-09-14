@@ -30,9 +30,7 @@ html {
 .about_text {
   flex: 1;
 }
-.about_image {
-  /* flex: 1; */
-}
+
 .Skill_imagebox {
   flex: 2 0 21%;
 }
@@ -54,6 +52,10 @@ html {
 }
 .about_span {
   color: rgba(231, 234, 30, 0.877) !important;
+}
+.About_headings {
+  font-size: 20px;
+  color:blue;
 }
 @media only screen and (max-width: 1024px) {
   .about_image {
@@ -88,4 +90,10 @@ html {
   .About_heading {
     font-size: 4rem;
   }
+  
+}
+.skills-heading{
+  font-size: 4rem;
+  color: white;
+  justify-content: flex-start;
 }

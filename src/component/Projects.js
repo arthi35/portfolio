@@ -33,7 +33,7 @@ const data = [
   {
     name: "Blog Application",
     image: blog,
-    liveLink: "https://zippy-sunflower-ba1f88.netlify.app/",
+    liveLink: "https://starlit-babka-57fe76.netlify.app",
     gitFrontLink: "https://github.com/arthi35/frontend.git",
     gitBackLink: "https://github.com/arthi35/blog-bd.git",
     discription:
@@ -44,7 +44,7 @@ const data = [
   {
     name: "Chat Application",
     image: chat,
-    liveLink: "https://relaxed-yeot-83e233.netlify.app",
+    liveLink: "https://gilded-haupia-ca307c.netlify.app",
     gitFrontLink: "https://github.com/arthi35/chat-app-frontend.git",
     gitBackLink: "https://github.com/arthi35/Chat-app-backend.git",
     discription:
@@ -55,7 +55,7 @@ const data = [
   {
     name: "Food Ordering Website",
     image: food,
-    liveLink: "https://cool-starship-97d68e.netlify.app",
+    liveLink: "https://amazing-otter-8680bc.netlify.app",
     gitFrontLink: "https://github.com/arthi35/food-project-front.git",
     gitBackLink: "https://github.com/arthi35/food-project-back.git",
     discription:

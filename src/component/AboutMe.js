@@ -82,7 +82,10 @@ const AboutMe = ({ select, setSelect }) => {
             as <span className="about_span"> MERN</span> stack developer in GUVI
             Geek Networks, IITM Research Park.
           </p>
-          <p>Here are a few technologies that I work with:-</p>
+          <p className="About_headings"style={{color:'white',fontSize:'50px'}}>Skills</p>
+        </div>
+        <div>
+        
         </div>
         <div className="about_image"></div>
       </div>
