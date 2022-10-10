@@ -40,7 +40,7 @@ export const Contact = ({ select, setSelect }) => {
           </div>
           <div>
             <a
-              href="https://mail.google.com/mail/u/0/?pli=1#inbox"
+              href="mailto:arthimba35@gmail.com"
               target="_blank"
             >
               <EmailIcon className="contact_icon" />
