@@ -59,7 +59,7 @@ const About = ({ select, setSelect }) => {
           </Button>
         </a>
         <a
-          href="https://drive.google.com/file/d/1MrJZz220MCQYzu5E-HrhB_1AP7pXBLVu/view?usp=drive_link"
+          href="https://drive.google.com/file/d/11a6EA7Qrz47YOmE4Jk0asjEiL4t5MX4c/view?usp=drive_link"
           target="_blank"
         >
           <Button className="Resume_btn" variant="outlined">
